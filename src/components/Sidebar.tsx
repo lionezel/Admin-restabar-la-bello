@@ -81,26 +81,6 @@ export default function Sidebar({ mobileOpen, onClose, desktopOpen = true }: Sid
       path: `/${restaurantId}/billing`,
     },
     {
-      text: "Carruseles",
-      icon: <ViewCarouselIcon />,
-      path: `/${restaurantId}/carousel`,
-    },
-    {
-      text: "Usuarios",
-      icon: <GroupIcon />,
-      path: `/${restaurantId}/users`,
-    },
-    {
-      text: "Descuentos",
-      icon: <DiscountIcon />,
-      path: `/${restaurantId}/discounts`,
-    },
-    {
-      text: "Domicilios",
-      icon: <DeliveryDiningIcon />,
-      path: `/${restaurantId}/delivery`,
-    },
-    {
       text: "Adiciones",
       icon: <AddCircleIcon />,
       path: `/${restaurantId}/additions`,
