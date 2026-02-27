@@ -1,0 +1,1 @@
+export const GlobalColor = "#5f36ff"
